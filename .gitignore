@@ -1,0 +1,26 @@
+# --- environments / caches (regenerable) ---
+.venv/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+Rplots.pdf
+
+# --- 9am member data: excluded by choice; reproduce locally ---
+data/
+
+# --- heavy binaries / 9am's own materials (-> warehouse, not git) ---
+research/
+
+# --- internal, not part of the case study ---
+dump/
+reference/
+r-prog/reference/
+r-prog/retired/
+
+# --- working backups ---
+*.bak-*
+
+# --- personal working docs (kept local, out of the repo) ---
+journal.md
+panel-prep.md
